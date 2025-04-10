@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IndiaFilings - Income Tax Filing</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fafb;
+      line-height: 1.6;
+    }
+    .sticky-navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1030; 
+    }
+    .navbar-brand img {
+      height: 50px;
+    }
+    .rating {
+      background-color: #e6f4ea;
+      color: #1a7f37;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+    .card-custom {
+      border: 1px solid #dee2e6;
+      border-radius: 12px;
+      padding: 20px;
+      background-color: #ffffff;
+      transition: transform 0.2s ease;
+    }
+    .card-custom:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    .footer {
+      background-color: #e9eef4;
+      color: #1c1f23;
+      padding: 40px 0 10px;
+    }
+    .footer h5 {
+      font-size: 16px;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    .footer ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .footer ul li {
+      margin-bottom: 0.5rem;
+    }
+    .footer ul li i {
+      margin-right: 8px;
+    }
+    .footer a {
+      color: #1c1f23;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .sticky-img {
+      position: sticky;
+      top: 100px;
+    }
+    .bg-white.shadow-sm:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      transform: translateY(-3px);
+      transition: all 0.3s ease;
+    }
+
+    @media (max-width: 768px) {
+      .row.g-4 > div {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="IndiaFilings Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">Startup</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Registrations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Trademark</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">GST</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Income Tax</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">MCA</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Compliance</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Consultation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Guides</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-search fs-5 me-3 text-secondary"></i>
+          <i class="bi bi-cart3 fs-5 me-3 text-primary"></i>
+          <button class="btn btn-outline-primary btn-sm">Login</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <!-- Income Tax E-Filing Section -->
+      <div class="col-lg-8">
+        <div class="p-4 bg-white rounded shadow-sm">
+          <div class="row align-items-start">
+            <div class="col-md-5 sticky-img">
+              <img src="income-Tax-e-Filing-india.png" alt="Tax Filing Banner" class="img-fluid rounded">
+            </div>
+            <div class="col-md-7">
+              <h5 class="fw-bold">Income Tax E-Filing</h5>
+              <p><span class="rating">4.6</span> <a href="#" class="ms-2 text-decoration-none">10258 Customers</a></p>
+              <p class="text-muted">E-file your income tax return (ITR) online through IndiaFilings quickly at lowest price. Get support from income tax experts for ITR filing.</p>
+              <select class="form-select mb-4">
+                <option selected disabled>Personal - Salaried</option>
+                <option>30 Minutes - Tax Consultation</option>
+              </select>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card-custom">
+                    <span class="badge bg-success mb-2">2 Exclusive Offers</span>
+                    <h6>Personal - Salaried</h6>
+                    <ul>
+                      <li>Salary Income</li>
+                      <li>Assisted ITR Filing</li>
+                      <li>Tax Expert Support</li>
+                    </ul>
+                    <button class="btn btn-outline-success btn-sm w-100">ADD</button>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-custom">
+                    <span class="badge bg-success mb-2">2 Exclusive Offers</span>
+                    <h6>Personal - Self Employed</h6>
+                    <ul>
+                      <li>Professionals</li>
+                      <li>Freelancers</li>
+                      <li>Assisted ITR Filing</li>
+                      <li>Tax Expert Support</li>
+                    </ul>
+                    <button class="btn btn-outline-success btn-sm w-100">ADD</button>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mt-3 small">
+                <a href="#" class="text-decoration-none">Terms and Conditions</a>
+                <a href="#" class="text-decoration-none">Refer a Friend</a>
+              </div>
+              <div class="offers-section mt-4">
+                <h6 class="fw-bold mb-3">Offers and discounts</h6>
+                <div class="card mb-2 p-3 d-flex flex-row align-items-center">
+                  <img src="ledgers_icon.png" class="me-3" alt="LEDGERS">
+                  <div>
+                    <strong>LEDGERS Invoicing Platform</strong><br>
+                    <small class="text-muted">Invoicing, GST Filing, Banking and Payroll</small>
+                  </div>
+                </div>
+                <div class="card p-3 d-flex flex-row align-items-center">
+                  <img src="gstn-icon.png" class="me-3" alt="GST">
+                  <div>
+                    <strong>Save 18% with GST Registration</strong><br>
+                    <small class="text-muted">Get GST eInvoice with Input Tax Credit</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cart Section -->
+      <div class="col-lg-4">
+        <div class="position-sticky" style="top: 100px;">
+          <div class="bg-white p-4 rounded shadow-sm border">
+            <i class="bi bi-bag-dash fs-1 text-muted align-content-center"></i>
+            <h6>Your cart is Empty</h6>
+            <p class="small">Browse our services and click ADD to proceed manually.</p>
+          </div>
+          <p class="small">Existing User? <a href="#" class="text-success">Login</a></p>
+          <input type="text" class="form-control mb-2" placeholder="Name">
+          <input type="email" class="form-control mb-2" placeholder="Email">
+          <div class="input-group mb-2">
+            <span class="input-group-text">+91</span>
+            <input type="text" class="form-control" placeholder="Phone">
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="gstCheck">
+            <label class="form-check-label" for="gstCheck">Enter GSTIN to get 18% GST Credit</label>
+          </div>
+          <button class="btn btn-success w-100">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Customer Reviews Section -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h4 class="fw-bold text-center mb-1">Customer Reviews For Income Tax E-Filing</h4>
+      <p class="text-center text-muted mb-4">IndiaFilings has over 1 lakh customers... We constantly improve and strive to deliver the best services through the internet.</p>
+      
+      <div class="row g-4">
+        <!-- Review Card -->
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow-sm rounded h-100">
+            <h6 class="fw-bold mb-1">SUGANTHI R</h6>
+            <p class="text-muted small mb-2">Verified Customer <br> <span class="text-secondary">(08 August 2019)</span></p>
+            <p class="mb-0">Good</p>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow-sm rounded h-100">
+            <h6 class="fw-bold mb-1">SOWNDARYA R</h6>
+            <p class="text-muted small mb-2">Verified Customer <br> <span class="text-secondary">(24 July 2019)</span></p>
+            <p class="mb-0">Thank you well done</p>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow-sm rounded h-100">
+            <h6 class="fw-bold mb-1">AYYANAR M</h6>
+            <p class="text-muted small mb-2">Verified Customer <br> <span class="text-secondary">(29 September 2018)</span></p>
+            <p class="mb-0">Great job done</p>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow-sm rounded h-100">
+            <h6 class="fw-bold mb-1">GAUTHAM A</h6>
+            <p class="text-muted small mb-2">Verified Customer <br> <span class="text-secondary">(17 September 2018)</span></p>
+            <p class="mb-0">It was carried out smoothly and thank you</p>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow-sm rounded h-100">
+            <h6 class="fw-bold mb-1">ABDUL MUJIB</h6>
+            <p class="text-muted small mb-2">Verified Customer <br> <span class="text-secondary">(23 July 2018)</span></p>
+            <p class="mb-0">Attend call back request</p>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow-sm rounded h-100">
+            <h6 class="fw-bold mb-1">THUTHIYAPPAN</h6>
+            <p class="text-muted small mb-2">Verified Customer <br> <span class="text-secondary">(18 February 2018)</span></p>
+            <p class="mb-0">Be more responsive</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- Footer -->
+  <footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>IndiaFilings</h5>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> About IndiaFilings</li>
+            <li><i class="bi bi-chevron-right"></i> Online Payment</li>
+            <li><i class="bi bi-chevron-right"></i> Careers</li>
+            <li><i class="bi bi-chevron-right"></i> Contact Us</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Platforms</h5>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> Business Search</li>
+            <li><i class="bi bi-chevron-right"></i> Trademark Search</li>
+            <li><i class="bi bi-chevron-right"></i> Client Portal</li>
+            <li><i class="bi bi-chevron-right"></i> Filings.AE for UAE</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Usage</h5>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> Terms & Conditions</li>
+            <li><i class="bi bi-chevron-right"></i> Privacy Policy</li>
+            <li><i class="bi bi-chevron-right"></i> Refund Policy</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>&nbsp;</h5>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> Confidentiality Policy</li>
+            <li><i class="bi bi-chevron-right"></i> Disclaimer Policy</li>
+            <li><i class="bi bi-chevron-right"></i> IndiaFilings Review</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4 small">
+        Copyright © 2025 IndiaFilings Private Limited. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
